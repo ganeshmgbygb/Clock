@@ -1,0 +1,43 @@
+body {
+    background: black;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #cc6619;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    box-shadow: 0cqh;
+}
+.timer{
+    position:absolute;
+    left: 50%;
+    bottom: 30%;
+    background-color: rgb(36, 36, 37);
+    color: #cc6619;
+    border: 2px solid rgb(26, 26, 25);
+    border-radius: 40%;
+    cursor: pointer;
+    text-decoration:none ;
+    font-size: small;
+
+}
+a{
+    padding: 5px;
+}
+.btn{
+    position:absolute;
+    left: 39%;
+    bottom: 30%;
+    background-color: rgb(36, 36, 37);
+    color: #cc6619;
+    border: 2px solid rgb(26, 26, 25);
+    border-radius: 40%;
+    cursor: pointer;
+    text-decoration:none ;
+    font-size: small;
+}
